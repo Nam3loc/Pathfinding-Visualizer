@@ -38,6 +38,13 @@ export default class PathfindingVisualizer extends Component {
     this.setState({mouseIsPressed: false});
   }
 
+  // moveStartNode(isStart) {
+  //   this.setState({mouseIsPressed: false});
+  //   if(node.isStart === this.setState) {
+  //     this.setState({mouseIsPressed: true});
+  //   }
+  // }
+
   animateDijkstra(visitedNodesInOrder, nodesInShortestPathOrder) {
     for (let i = 0; i <= visitedNodesInOrder.length; i++) {
       if (i === visitedNodesInOrder.length) {
